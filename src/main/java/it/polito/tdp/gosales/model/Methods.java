@@ -58,6 +58,10 @@ public class Methods {
 		return code == other.code;
 	}
 
+	@Override
+	public String toString() {
+		return type;
+	}
 	
 	
 	
